@@ -11,7 +11,7 @@ public class MessageHandler {
 
     public static void BotSetup() {
         //Create new api using bot API Key
-        DiscordApi api = new DiscordApiBuilder().setToken("INSERT DISCORD TOKEN HERE").login().join();
+        DiscordApi api = new DiscordApiBuilder().setToken(" INSERT DISCORD TOKEN HERE ").login().join();
         System.out.println("You can invite me by using the following url: " + api.createBotInvite());
         //enable logger
         FallbackLoggerConfiguration.setDebug(true);
