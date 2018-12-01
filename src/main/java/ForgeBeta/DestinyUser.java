@@ -26,7 +26,7 @@ public class DestinyUser {
     private String[] CharacterList = new String[2];
     static int TotalRaidCount;
 
-    static String BungieApiKey = "e4582b11309b41df8667ba6523a0f9ff";
+    static String BungieApiKey = "X-API-KEY";
     static String domainBase = "https://www.bungie.net";
 
     //method used when creating user
